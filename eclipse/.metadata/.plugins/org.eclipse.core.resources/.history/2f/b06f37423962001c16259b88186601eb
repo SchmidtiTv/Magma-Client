@@ -1,0 +1,31 @@
+package Magma.cosmetics.impl;
+
+import org.lwjgl.opengl.GL11;
+
+import Magma.cosmetics.CosmeticBase;
+import Magma.cosmetics.CosmeticController;
+import Magma.cosmetics.CosmeticModelBase;
+import net.minecraft.client.entity.AbstractClientPlayer;
+import net.minecraft.client.model.ModelRenderer;
+import net.minecraft.client.renderer.GlStateManager;
+import net.minecraft.client.renderer.entity.RenderPlayer;
+import net.minecraft.entity.Entity;
+import net.minecraft.util.ResourceLocation;
+
+import org.lwjgl.opengl.GL11;
+
+public class CosmeticWings extends CosmeticBase {
+
+	public CosmeticWings(RenderPlayer playerRender) {
+		super(playerRender);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void render(AbstractClientPlayer player, float limbSwing, float limbSwingAmount, float partialTicks,
+			float ageInTicks, float headYaw, float headPitch, float scale) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

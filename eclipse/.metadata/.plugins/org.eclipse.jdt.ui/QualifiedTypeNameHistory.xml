@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="Magma.Cosmetic.CapeChecker"/>
+    <fullyQualifiedTypeName name="Magma.util.SessionChanger"/>
+    <fullyQualifiedTypeName name="net.minecraft.client.gui.GuiScreen"/>
+    <fullyQualifiedTypeName name="net.minecraft.client.gui.Gui"/>
+    <fullyQualifiedTypeName name="net.arikia.dev.drpc.DiscordEventHandlers"/>
+    <fullyQualifiedTypeName name="net.arikia.dev.drpc.DiscordEventHandlers.Builder"/>
+    <fullyQualifiedTypeName name="net.arikia.dev.drpc.callbacks.ReadyCallback"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="net.arikia.dev.drpc.DiscordRichPresence.Builder"/>
+    <fullyQualifiedTypeName name="net.arikia.dev.drpc.DiscordRichPresence"/>
+    <fullyQualifiedTypeName name="net.arikia.dev.drpc.DiscordRPC"/>
+    <fullyQualifiedTypeName name="Magma.Client"/>
+    <fullyQualifiedTypeName name="net.minecraft.client.renderer.entity.layers.LayerRenderer"/>
+    <fullyQualifiedTypeName name="net.minecraft.client.entity.AbstractClientPlayer"/>
+    <fullyQualifiedTypeName name="net.minecraft.client.model.ModelBase"/>
+    <fullyQualifiedTypeName name="net.minecraft.client.model.ModelBiped"/>
+    <fullyQualifiedTypeName name="Magma.cosmetics.CosmeticModelBase"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="net.minecraft.client.model.ModelRenderer"/>
+    <fullyQualifiedTypeName name="Magma.cosmetics.CosmeticBase"/>
+    <fullyQualifiedTypeName name="net.minecraft.client.renderer.entity.RenderPlayer"/>
+    <fullyQualifiedTypeName name="Magma.cosmetics.impl.CosmeticTopHat.ModelTopHat"/>
+    <fullyQualifiedTypeName name="net.minecraft.client.renderer.GlStateManager"/>
+    <fullyQualifiedTypeName name="Magma.cosmetics.CosmeticController"/>
+    <fullyQualifiedTypeName name="Magma.cosmetics.impl.CosmeticTopHat"/>
+    <fullyQualifiedTypeName name="org.lwjgl.opengl.GL11"/>
+    <fullyQualifiedTypeName name="com.google.common.util.concurrent.AbstractScheduledService.Scheduler"/>
+    <fullyQualifiedTypeName name="com.google.common.util.concurrent.AbstractScheduledService.CustomScheduler"/>
+    <fullyQualifiedTypeName name="net.minecraft.client.Minecraft"/>
+    <fullyQualifiedTypeName name="java.awt.Color"/>
+    <fullyQualifiedTypeName name="java.lang.module.Configuration"/>
+    <fullyQualifiedTypeName name="org.apache.logging.log4j.core.helpers.Loader"/>
+    <fullyQualifiedTypeName name="com.mojang.authlib.properties.Property"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="net.minecraft.util.ResourceLocation"/>
+</qualifiedTypeNameHistroy>

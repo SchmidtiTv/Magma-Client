@@ -1,0 +1,29 @@
+package Magma;
+
+import Magma.util.SessionChanger;
+
+public class Main {
+
+
+	public String NAME = "SchmidtiClient", VERSION = "1.0.0", AUTHOR = "Schmidti";
+	public static tutorial INSTANCE = new tutorial();
+	
+	public EventManager eventmananger;
+
+	public void startup() {
+		eventmananger = new EventManager();
+		System.out.println("Starting" + NAME + VERSION + "by" + AUTHOR);
+		
+		eventmananger.register(this);
+		
+	}
+	
+	public void shutdown() {
+		System.out.println("Shotdown" + NAME);
+		
+		
+		eventmananger.unregister(this);
+
+	}
+	
+}

@@ -1,0 +1,20 @@
+package Magma.Cosmetic;
+
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.entity.AbstractClientPlayer;
+import net.minecraft.*;
+import net.minecraft.client.renderer.entity.RenderPlayer;
+import net.minecraft.entity.player.EnumPlayerModelParts;
+import net.minecraft.util.ResourceLocation;
+
+public class CapeChecker {
+	
+	public static boolean ownsCape(AbstractClientPlayer entitylivingbaseIn) {
+		if(entitylivingbaseIn.getName().equals("Smitty_007")) {
+			new ResourceLocation("pl/cape.png");
+			return true;
+		}
+		return false;
+	}
+	
+}

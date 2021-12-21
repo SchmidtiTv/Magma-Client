@@ -1,0 +1,15 @@
+package Magma;
+
+import Magma.util.SessionChanger;
+
+public class Main {
+	
+	public void startup() {
+		eventmananger = new EventManager();
+		System.out.println("Starting" + NAME + VERSION + "by" + AUTHOR);
+		
+		eventmananger.register(this);
+		
+	}
+	
+}

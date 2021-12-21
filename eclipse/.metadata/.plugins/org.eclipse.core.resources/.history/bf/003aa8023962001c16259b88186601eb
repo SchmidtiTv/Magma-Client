@@ -1,0 +1,36 @@
+package Magma.cosmetics;
+
+import java.awt.*;
+import java.lang.module.Configuration;
+
+import com.mojang.authlib.properties.Property;
+
+import net.minecraft.*;
+import net.minecraft.client.*;
+
+public class WingSettings {
+
+	private Configuration config;
+	public boolean enabled;
+	public boolean colored;
+	public boolean chroma;
+	public int scale;
+	public int hue;
+
+	public WingSettings(Configuration config)
+	{
+		this.config = config;
+	}
+
+	public float[] getColors()
+	{
+		if (!colored)
+		{
+			return new float[] {1F, 1F, 1F};
+		}
+
+		Color color = Color.getHSBColor(chroma ? (System.currentTimeMillis() % 1000) / 1000F : hue / 100F, 0.8F, 1F);
+		return new float[] {color.getRed()/255F, color.getGreen()/255F, color.getBlue()/255F};
+	}
+	
+}

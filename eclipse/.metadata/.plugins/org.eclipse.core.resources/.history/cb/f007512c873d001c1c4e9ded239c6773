@@ -1,0 +1,5 @@
+package Magma.ui;
+
+public class Mainmenu extends GuiScreen {
+
+}

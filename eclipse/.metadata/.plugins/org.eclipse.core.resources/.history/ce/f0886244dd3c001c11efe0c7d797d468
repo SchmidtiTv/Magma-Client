@@ -1,0 +1,11 @@
+package Magma;
+
+import Magma.util.SessionChanger;
+
+public class Main {
+
+	public void startup() {
+		SessionChanger.getInstance().setUserOffline("Smitty_007");
+	}
+	
+}
